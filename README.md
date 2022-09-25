@@ -15,9 +15,9 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ### [Visual Studio](https://visualstudio.microsoft.com/es/downloads/)
-_Framework utilizado para el desarrollo del proyecto. 
+_Framework utilizado para el desarrollo del proyecto._
 
-**Tip: ** Se recomienda utilizar versiones modernas_
+**Tip:** Se recomienda utilizar versiones modernas
 
 ```
 Da un ejemplo
