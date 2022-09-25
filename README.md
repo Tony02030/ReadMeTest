@@ -15,12 +15,12 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Herramientas necesarias para el proyecto_
 <ul>
 <li>  
-  <h3><a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a></h3>
+  <a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a>
   </li>
   <p>Framework utilizado para el desarrollo del proyecto.<br><br>
     <b>Tip:</b> Se recomienda utilizar versiones modernas</p>
   <li>  
-  <h3><a href="https://git-scm.com/downloads">Git</a> y <a href="https://desktop.github.com/">Github Desktop</a> </h3>
+  <a href="https://git-scm.com/downloads">Git</a> y <a href="https://desktop.github.com/">Github Desktop</a>
   </li>
   <p>Herramientas utilizadas para el versionamiento del proyecto</p>
 </ul>
