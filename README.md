@@ -3,7 +3,7 @@
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
-## Comenzando 🚀
+## Comenzando 
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
@@ -45,8 +45,11 @@ hasta finalizar
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 
-## Ejecutar ~
-En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el 
+## Ejecución 🚀
+En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
+### Configuración
+
+
 
 
 ## Construido con 🛠️
