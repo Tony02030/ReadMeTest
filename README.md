@@ -19,7 +19,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
   </li>
   <p>Framework utilizado para el desarrollo del proyecto.</p><br>
 
-  <b>Tip:</b> <p>Se recomienda utilizar versiones modernas</p>
+  <b>Tip:</b><p>Se recomienda utilizar versiones modernas</p>
 </ul>
 
 
