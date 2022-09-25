@@ -15,11 +15,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 <ul>
 <li>  
-### [Visual Studio](https://visualstudio.microsoft.com/es/downloads/)
+  <h3 href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</h3>
   </li>
 _Framework utilizado para el desarrollo del proyecto._
 
-**Tip:** Se recomienda utilizar versiones modernas
+<b>Tip:</b> Se recomienda utilizar versiones modernas
 </ul>
 ```
 Da un ejemplo
