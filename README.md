@@ -12,7 +12,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ## Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Herramientas necesarias para el proyecto_
 <ul>
 <li>  
   <h3><a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a></h3>
