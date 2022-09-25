@@ -15,7 +15,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Herramientas necesarias para el proyecto_
 <ul>
 <li>  
-  <p style="font-size:40px;"><a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a></p>
+  <p style="font-size:100px;"><a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a></p>
   </li>
   <p>Framework utilizado para el desarrollo del proyecto.<br><br>
     <b>Tip:</b> Se recomienda utilizar versiones modernas</p>
