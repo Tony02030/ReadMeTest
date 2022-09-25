@@ -18,7 +18,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
   <h3><a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a></h3>
   </li>
   <p>Framework utilizado para el desarrollo del proyecto.<br>
-    <b>Tip:</b>Se recomienda utilizar versiones modernas</p>
+    <b>Tip:</b> Se recomienda utilizar versiones modernas</p>
 </ul>
 
 
