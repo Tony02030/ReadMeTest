@@ -13,12 +13,14 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 ## Pre-requisitos 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
-
+<ul>
+<li>  
 ### [Visual Studio](https://visualstudio.microsoft.com/es/downloads/)
+  </li>
 _Framework utilizado para el desarrollo del proyecto._
 
 **Tip:** Se recomienda utilizar versiones modernas
-
+</ul>
 ```
 Da un ejemplo
 ```
