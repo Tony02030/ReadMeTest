@@ -45,7 +45,7 @@ hasta finalizar
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 
-## Ejecutar 
+## Ejecutar ~
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el 
 
 
