@@ -19,6 +19,10 @@ _Herramientas necesarias para el proyecto_
   </li>
   <p>Framework utilizado para el desarrollo del proyecto.<br><br>
     <b>Tip:</b> Se recomienda utilizar versiones modernas</p>
+  <li>  
+  <h3><a href="https://git-scm.com/downloads">Git</a> y <a href="https://desktop.github.com/">Github Desktop</a> </h3>
+  </li>
+  <p>Herramientas utilizadas para el versionamiento del proyecto</p>
 </ul>
 
 
