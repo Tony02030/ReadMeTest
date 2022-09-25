@@ -14,6 +14,9 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
+[Visual Studio](https://visualstudio.microsoft.com/es/downloads/)
+_Preferiblemente utilizar versiones modernas_
+
 ```
 Da un ejemplo
 ```
