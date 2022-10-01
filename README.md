@@ -10,7 +10,7 @@ El sistema
 * [Notas para asistentes](#Notas-para-asistentes)
 
 <a name="Pre-requisitos"/>
-##Pre-requisitos 📋
+## Pre-requisitos 📋
 _Herramientas necesarias para el proyecto_
 <ul>
 <li>  
