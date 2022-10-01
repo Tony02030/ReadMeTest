@@ -5,9 +5,9 @@ _Acá va un párrafo que describa lo que es el proyecto_
 El sistema 
 
 ## Índice
-* [Pre-requisitos](##Pre-requisitos)
-* [Ejecución](##Ejecucion)
-* [Notas para asistentes](##Notas-para-asistentes)
+* [Pre-requisitos](#Pre-requisitos)
+* [Ejecución](#Ejecucion)
+* [Notas para asistentes](#Notas-para-asistentes)
 <a name="Pre-requisitos"/>
 ## Pre-requisitos 📋
 
