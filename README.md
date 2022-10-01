@@ -10,6 +10,7 @@ El sistema
 * [Notas para asistentes](#Notas-para-asistentes)
 
 <a name="Pre-requisitos"/>
+
 ## Pre-requisitos 📋
 _Herramientas necesarias para el proyecto_
 <ul>
@@ -52,6 +53,7 @@ hasta finalizar
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 <a name="Ejecucion"/>
+
 ## Ejecución 🚀
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
 ### Configuración
