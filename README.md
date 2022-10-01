@@ -8,9 +8,9 @@ El sistema
 * [Pre-requisitos](#Pre-requisitos)
 * [Ejecución](#Ejecucion)
 * [Notas para asistentes](#Notas-para-asistentes)
+
 <a name="Pre-requisitos"/>
 ## Pre-requisitos 📋
-
 _Herramientas necesarias para el proyecto_
 <ul>
 <li>  
