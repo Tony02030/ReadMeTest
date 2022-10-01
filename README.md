@@ -54,7 +54,7 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 ### Posibles errores durante la ejecución
 * Si aparece la siguiente linea en un error
 ```
-Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Could not load file or assembly 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies
 ```
 Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalción el error debe desaparecer
 ## Notas para asistentes
