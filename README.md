@@ -5,10 +5,10 @@ _Acá va un párrafo que describa lo que es el proyecto_
 El sistema 
 
 ## Índice
-[Pre-requisitos](##Pre-requisitos)
-[Ejecución](##Ejecución)
-[Notas para asistentes](##Notas-para-asistentes)
-
+* [Pre-requisitos](##Pre-requisitos)
+* [Ejecución](##Ejecución)
+* [Notas para asistentes](##Notas-para-asistentes)
+<a name="Pre-requisitos"/>
 ## Pre-requisitos 📋
 
 _Herramientas necesarias para el proyecto_
@@ -51,7 +51,7 @@ hasta finalizar
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-
+<a name="Ejecución"/>
 ## Ejecución 🚀
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
 ### Configuración
@@ -62,6 +62,7 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 Could not load file or assembly 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies
 ```
 Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalación el error debe desaparecer
+<a name="Notas para asistentes"/>
 ## Notas para asistentes :technologist:
 * Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
 * **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente
