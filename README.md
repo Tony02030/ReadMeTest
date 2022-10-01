@@ -51,7 +51,13 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
 ### Configuración
 
-##Notas para asistentes
+### Posibles errores durante la ejecución
+* Si aparece la siguiente linea en un error
+```
+Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+```
+Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalción el error debe desaparecer
+## Notas para asistentes
 * Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
 * **No** subir los archivos de configuración de su proyecto local, solo los archivos de código modificados
 * 
