@@ -60,6 +60,6 @@ Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/downlo
 ## Notas para asistentes :technologist:
 * Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
 * **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente
-* 
+* Cada modificación hecha en la base de datos debe ser añadida al repositorio, agregando un script con sus respectivas modificaciones
 
 
