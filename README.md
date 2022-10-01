@@ -56,7 +56,7 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 ```
 Could not load file or assembly 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies
 ```
-Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalción el error debe desaparecer
+Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalación el error debe desaparecer
 ## Notas para asistentes :technologist:
 * Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
 * **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente
