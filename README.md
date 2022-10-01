@@ -18,7 +18,7 @@ _Herramientas necesarias para el proyecto_
   </li>
   <p>Herramientas utilizadas para el versionamiento del proyecto</p>
   <li>  
-  <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads">Sql</a>
+  <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads">SQL</a>
   </li>
   <p>Base de datos relacional utilizada en el proyecto</p>
   <li>
