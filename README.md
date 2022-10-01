@@ -2,13 +2,7 @@
 # Control-de-Trabajos de Laboratorio
 
 _Acá va un párrafo que describa lo que es el proyecto_
-
-## Comenzando 
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+El sistema 
 
 ## Pre-requisitos 📋
 
@@ -23,6 +17,14 @@ _Herramientas necesarias para el proyecto_
   <a href="https://git-scm.com/downloads">Git</a> y <a href="https://desktop.github.com/">Github Desktop</a>
   </li>
   <p>Herramientas utilizadas para el versionamiento del proyecto</p>
+  <li>  
+  <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads">Sql</a>
+  </li>
+  <p>Base de datos relacional utilizada en el proyecto</p>
+  <li>
+  <a href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16">SSMS</a>
+  </li>
+  <p>IDE utilizado para administrar, configurar y gestionar las bases de datos</p>
 </ul>
 
 
@@ -49,42 +51,9 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
 ### Configuración
 
+##Notas para asistentes
+* Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
+* **No** subir los archivos de configuración de su proyecto local, solo los archivos de código modificados
+* 
 
 
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
