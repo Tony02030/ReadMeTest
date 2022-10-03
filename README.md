@@ -9,7 +9,11 @@ Sistema que permite administrar y gestionar
 * [Ejecución](#Ejecucion)
 * [Notas para asistentes](#Notas-para-asistentes)
 
+---
+
 <a name="Pre-requisitos"/>
+
+
 
 ## Pre-requisitos 📋
 _Herramientas necesarias para el proyecto_
@@ -33,6 +37,7 @@ _Herramientas necesarias para el proyecto_
   <p>IDE utilizado para administrar, configurar y gestionar las bases de datos</p>
 </ul>
 
+---
 
 ### Instalación 🔧
 
@@ -54,19 +59,183 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 
 <a name="Ejecucion"/>
 
+</br>
+</br>
+
 ## Ejecución 🚀
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
-### Configuración
 
-* ConexiónDatos.cs
+* [Configuración](#Configuracion)
+* [Posibles errores durante ejecución](#Posibles-errores)
 
-Accedemos al archivo de la siguiente manera: AccesoDatos
+---
+
+<a name="Configuracion"/>
+
+* <h3>Configuración</h3>
+
+#### ConexiónDatos.cs
+
+Ubicación: AccesoDatos -> ConexiónDatos.cs
+
 Borramos la línea 62 y la cambios por la siguiente: 
 
 ```
 //return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
           return null;
 ```
+---
+
+#### Web.config
+
+Ubicación: CTL -> Web.config
+
+Borramos las lineas desde la 63 hasta la 66 y agregamos las siguientes:
+
+```
+<add name="LOGINConnectionString" connectionString="Data Source=163.178.106.21;Initial Catalog=Login;User Id=sa;Password=sa123!!" providerName="System.Data.SqlClient"/>
+<add name="CTLconnectionString" connectionString="Data Source=<local server>;Initial Catalog=CTL;Integrated Security=True" providerName="System.Data.SqlClient"/>
+
+```
+
+Debemos cambiar el "Data Source" con nuestro servidor local SQL
+
+---
+
+#### Utilidades.cs
+
+Ubicación: CTL -> Utilidades.cs
+
+Descomentamos la linea 18 y la reemplazamos por la ubicación de nuestro proyecto local
+
+Ejemplo:
+
+```
+public static string path = "C:\\Users\\HP\\Documents\\GitHub\\Control-de-Trabajos-de-Laboratorio\\CTL";
+```
+
+Comentamos la línea 21
+```
+//public static string path = "\\\\gaia\\AppFiles\\CTL\\Produccion\\";
+```
+
+---
+
+#### Login.aspx.cs
+
+Ubicación: CTL -> Login.aspx -> Login.aspx.cs
+
+Comentamos las lineas 38 y 39
+
+```
+//actualizarListaRoles();
+//actualizarListaUsuarios();
+```
+
+Comentamos desde la línea 204 hasta la 208
+
+```
+//string dominName = string.Empty;
+//string adPath = string.Empty;
+//string nombreCompleto = string.Empty;
+//string userName = txtUsuario.Text.Trim().ToUpper();
+//string strError = string.Empty;
+```
+
+Comentamos las líneas 210 y 211
+
+```
+//foreach (string key in System.Configuration.ConfigurationManager.AppSettings.Keys)
+        //{
+```
+
+Comentamos desde la linea 213 a la 218
+
+```
+// dominName = key.Contains("DirectoryDomain") ? System.Configuration.ConfigurationManager.AppSettings[key] : dominName;
+                //adPath = key.Contains("DirectoryPath") ? System.Configuration.ConfigurationManager.AppSettings[key] : adPath;
+                //if (!String.IsNullOrEmpty(dominName) && !String.IsNullOrEmpty(adPath))
+                //{
+                    //if (true == AuthenticateUser(dominName, userName, txtPassword.Text, adPath, out strError))
+                    //{
+```
+
+Comentamos la línea 220
+
+```
+//Session["login"] = userName;
+```
+
+Comentamos desde la línea 222 a la 241
+
+```
+//object[] datos = conexionServicios.loguearse(userName);
+                        //if (datos[0] != null)
+                        //{
+                            //rol = Convert.ToInt32(datos[0].ToString());
+                            //nombreCompleto = datos[1].ToString();
+
+                            //Session["rol"] = rol;
+                            //Session["nombreCompleto"] = nombreCompleto;
+
+                            //Session["rol"] = 11;
+                            //Session["nombreCompleto"] = "Ellen Rodriguez Castro";
+
+                            //se busca el usuario para poder cargar los permisos que tiene
+                            //Usuario usuario = new Usuario();
+
+                            //usuario.nombreCompleto = nombreCompleto;
+
+                            //usuario = usuarioServicios.getUsuarioPorNombreCompleto(usuario);
+
+                            //Session["listaPermisosPagina"] = usuarioRolPaginaPermisoServicios.getPermisosPorUsuario(usuario);
+```
+
+Agregamos el siguiente código en las a partir de la línea 242
+
+```
+            rol = 2;
+            //rol = 19;
+            //String nombreCompleto = "Auditor";
+            String nombreCompleto = "Leonardo Carrion Quiros";
+            //String nombreCompleto = "Asistente UTI 05";
+
+            Session["rol"] = rol;
+            Session["nombreCompleto"] = nombreCompleto;
+            Usuario usuario = new Usuario();
+
+            usuario.nombreCompleto = nombreCompleto;
+
+            usuario = usuarioServicios.getUsuarioPorNombreCompleto(usuario);
+
+            Session["listaPermisosPagina"] = usuarioRolPaginaPermisoServicios.getPermisosPorUsuario(usuario);
+```
+
+Comentamos desde la línea 293 hasta la 309
+
+```
+                    //}
+                       //else
+                        //{
+                            //lblNoUsuario.Visible = true;
+                            //lblError.Visible = false;
+                        //}
+                    //}
+                    //dominName = string.Empty;
+                    //adPath = string.Empty;
+                    //if (String.IsNullOrEmpty(strError)) break;
+                //}
+           //}
+```
+
+
+</br>
+</br>
+
+---
+
+
+<a name="Posibles-errores"/>
 
 ### Posibles errores durante la ejecución
 * Si aparece la siguiente linea en un error
@@ -75,6 +244,12 @@ Could not load file or assembly 'Microsoft.Web.Infrastructure, Version=1.0.0.0, 
 ```
 Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalación el error debe desaparecer
 <a name="Notas-para-asistentes"/>
+
+</br>
+</br>
+
+---
+
 ## Notas para asistentes :technologist:
 * Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
 * **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente
