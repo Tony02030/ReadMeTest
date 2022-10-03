@@ -59,7 +59,10 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 ### Configuración
 
 * ConexiónDatos.cs
+
+Accedemos al archivo de la siguiente manera: AccesoDatos
 Borramos la línea 62 y la cambios por la siguiente: 
+
 ```
 //return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
           return null;
