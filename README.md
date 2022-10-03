@@ -59,8 +59,6 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 
 <a name="Ejecucion"/>
 
-</br>
-</br>
 
 ## Ejecución 🚀
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
@@ -72,7 +70,7 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 
 <a name="Configuracion"/>
 
-* <h3>Configuración</h3>
+<h3>Configuración</h3>
 
 #### ConexiónDatos.cs
 
@@ -229,9 +227,6 @@ Comentamos desde la línea 293 hasta la 309
 ```
 
 
-</br>
-</br>
-
 ---
 
 
@@ -244,9 +239,6 @@ Could not load file or assembly 'Microsoft.Web.Infrastructure, Version=1.0.0.0, 
 ```
 Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/download/details.aspx?id=1491">AspNetMVC3ToolsUpdateSetup</a>, con solo su instalación el error debe desaparecer
 <a name="Notas-para-asistentes"/>
-
-</br>
-</br>
 
 ---
 
