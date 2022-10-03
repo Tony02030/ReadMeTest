@@ -58,6 +58,13 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
 ### Configuración
 
+* ConexiónDatos.cs
+Borramos la línea 62 y la cambios por la siguiente: 
+```
+//return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
+          return null;
+```
+
 ### Posibles errores durante la ejecución
 * Si aparece la siguiente linea en un error
 ```
