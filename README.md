@@ -189,7 +189,7 @@ Comentamos desde la línea 222 a la 241
                             //Session["listaPermisosPagina"] = usuarioRolPaginaPermisoServicios.getPermisosPorUsuario(usuario);
 ```
 
-Agregamos el siguiente código en las a partir de la línea 242
+Agregamos el siguiente código a partir de la línea 242
 
 ```
             rol = 2;
