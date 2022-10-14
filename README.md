@@ -16,7 +16,7 @@ Este proyecto tiene como objetivo principal gestionar solicitudes de trabajo, co
 
 
 ## Pre-requisitos 📋
-_Herramientas necesarias para el proyecto_
+Herramientas necesarias para el proyecto
 <ul>
 <li>  
   <a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a>
@@ -43,14 +43,14 @@ _Herramientas necesarias para el proyecto_
 
 ## Instalación 🔧
 
-En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository" >link</a> se muestran las opciones que ofrece Github para clonar un repositorio y los pasos que hay que seguir si se realiza con Git o Github Desktop 
+En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository" >link</a> se muestran las opciones que ofrece Github para clonar un repositorio y los pasos que hay que seguir si se realiza con Git o Github Desktop.
 
 
 <a name="Ejecucion"/>
 
 
 ## Ejecución 🚀
-En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución
+En el siguente apartado se mostrán las configuraciones necesarias para ejecutar el proyecto y posibles soluciones a problemas que ocurran durante su ejecución.
 
 * [Configuración](#Configuracion)
 * [Posibles errores durante ejecución](#Posibles-errores)
@@ -232,8 +232,8 @@ Se debe descargar la herramienta <a href="https://www.microsoft.com/en-us/downlo
 ---
 
 ## Notas para asistentes :technologist:
-* Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada
-* **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente
-* Cada modificación hecha en la base de datos debe ser añadida al repositorio, agregando un script con sus respectivas modificaciones
+* Cada commit debe ser consultado y revisado antes de ser subido por la persona encargada.
+* **NO** subir los archivos de configuración de su proyecto local, solo los archivos modificados manualmente.
+* Cada modificación hecha en la base de datos debe ser añadida al repositorio, agregando un script con sus respectivas modificaciones.
 
 
