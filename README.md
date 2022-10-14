@@ -6,6 +6,7 @@ Sistema que permite administrar y gestionar
 
 ## Índice
 * [Pre-requisitos](#Pre-requisitos)
+* [Instalación](#Instalacion)
 * [Ejecución](#Ejecucion)
 * [Notas para asistentes](#Notas-para-asistentes)
 
@@ -39,23 +40,12 @@ _Herramientas necesarias para el proyecto_
 
 ---
 
+<a name="Instalacion"/>
+
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository" >link</a> se muestran las opciones que ofrece Github para clonar un repositorio y los pasos que hay que seguir si se realiza con Git o Github Desktop 
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 <a name="Ejecucion"/>
 
