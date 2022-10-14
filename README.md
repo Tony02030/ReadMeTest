@@ -1,7 +1,7 @@
 
 # Control-de-Trabajos de Laboratorio
 
-Sistema de gestion de todos los trabajos de laboratorio
+Este proyecto tiene como objetivo principal gestionar solicitudes de trabajo, cotizaciones, pagos, ensayos y demás módulos afines que permiten realizar las funciones principales de las peticiones de trabajo de los laboratorios de Lanamme.
 
 ## Índice
 * [Pre-requisitos](#Pre-requisitos)
