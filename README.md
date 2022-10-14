@@ -1,8 +1,7 @@
 
 # Control-de-Trabajos de Laboratorio
 
-_Acá va un párrafo que describa lo que es el proyecto_
-Sistema que permite administrar y gestionar  
+Sistema de gestion de todos los trabajos de laboratorio
 
 ## Índice
 * [Pre-requisitos](#Pre-requisitos)
