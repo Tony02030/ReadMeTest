@@ -42,7 +42,7 @@ _Herramientas necesarias para el proyecto_
 
 <a name="Instalacion"/>
 
-### Instalación 🔧
+## Instalación 🔧
 
 En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository" >link</a> se muestran las opciones que ofrece Github para clonar un repositorio y los pasos que hay que seguir si se realiza con Git o Github Desktop 
 
