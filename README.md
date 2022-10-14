@@ -1,7 +1,8 @@
 
 # Control-de-Trabajos de Laboratorio
 
-Este proyecto tiene como objetivo principal gestionar solicitudes de trabajo, cotizaciones, pagos, ensayos y demás módulos afines que permiten realizar las funciones principales de las peticiones de trabajo de los laboratorios de Lanamme.
+Sistema de control de las solicitudes de trabajo de los laboratorios del LanammeUCR incluyendo la trazabilidad de las muestras, ensayos, programciones, informes y la administración financiera.
+
 
 ## Índice
 * [Pre-requisitos](#Pre-requisitos)
