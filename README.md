@@ -44,7 +44,14 @@ Herramientas necesarias para el proyecto
 
 ## Instalación 🔧
 
+### Clonar repositorio
+
 En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository" >link</a> se muestran las opciones que ofrece Github para clonar un repositorio y los pasos que hay que seguir si se realiza con Git o Github Desktop.
+
+
+### Restaurar base de datos
+
+En el siguiente enlace <a href="https://learn.microsoft.com/es-es/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver16">link</a> se enseñan paso a paso la restauración de una base de datos en SQL Server utilizando el SSMS.
 
 
 <a name="Ejecucion"/>
@@ -61,6 +68,8 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 <a name="Configuracion"/>
 
 <h3>Configuración</h3>
+
+**Nota**: Las numeraciones de las líneas de código **NO** son exactas, son aproximaciones de donde podrían ubicarse.
 
 #### ConexiónDatos.cs
 
