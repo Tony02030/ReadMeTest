@@ -67,10 +67,23 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 
 <a name="Configuracion"/>
 
-### Habilitar web forms en Visual Studio
+### Habilitar Web Forms en Visual Studio
 Si se utilizan versiones modernas del Visual Studio, ya sea 2019 o 2022 debemos habilitar la opción de crear aplicaciones ASP.NET Web Forms.
 
-Para ello 
+Para ello abriremos el VisualStudioInstaller que aparece con el siguiente icono:
+
+<div>
+<p style = 'text-align:center;'>
+<img src="https://github.com/Tony02030/ReadMeTest/blob/main/images/visualIcon.png"  width="200px">
+</p>
+</div>
+<br>
+
+Buscamos el apartado modificar del Visual Studio:
+
+
+
+
 
 <h3>Configuración de archivos en proyecto</h3>
 
