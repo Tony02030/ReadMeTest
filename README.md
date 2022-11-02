@@ -95,7 +95,7 @@ Borramos las lineas desde la 63 hasta la 66 y agregamos las siguientes:
 
 ```
 
-En el "CTLconnectionString" debemos cambiar el "Data Source" con nuestro servidor local SQL
+En el "CTLconnectionString" debemos cambiar el "Data Source" con la dirección de nuestro servidor local en SQL Server
 
 ---
 
