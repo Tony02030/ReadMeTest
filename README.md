@@ -67,34 +67,46 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 
 <a name="Configuracion"/>
 
-<h3>Configuración</h3>
+### Habilitar web forms en Visual Studio
+Si se utilizan versiones modernas del Visual Studio, ya sea 2019 o 2022 debemos habilitar la opción de crear aplicaciones ASP.NET Web Forms.
+
+Para ello 
+
+<h3>Configuración de archivos en proyecto</h3>
 
 **Nota**: Las numeraciones de las líneas de código **NO** son exactas, son aproximaciones de donde podrían ubicarse.
 
 #### ConexiónDatos.cs
 
-Ubicación: AccesoDatos -> ConexiónDatos.cs
+Ubicación: AccesoDatos -> ConexiónDatos.cs <br>
+Posible numeración de línea de código: 62 <br>
 
-Buscamos la línea 62, la borramos y agregamos los siguientes cambios: 
+Buscamos la siguiente línea y la borramos: 
+
+```
+return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
+
+```
+
+Y agregamos las siguientes líneas:
 
 ```
 //return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
           return null;
 ```
+
 ---
 
 #### Web.config
 
-Ubicación: CTL -> Web.config
+Ubicación: CTL -> Web.config <br>
+Posible numeración de línea de código: 63 <br>
 
-Buscamos la línea 63, dentro de las etiquetas "\<connectionStrings>\...\</connectionStrings>" borramos la líneas y agregamos las siguentes:
-
-
+Buscamos las etiquetas "\<connectionStrings>\...\</connectionStrings>" borramos la líneas dentro de ellas y agregamos las siguentes:
 
 ```
 <add name="LOGINConnectionString" connectionString="Data Source=163.178.106.21;Initial Catalog=Login;User Id=sa;Password=sa123!!" providerName="System.Data.SqlClient"/>
 <add name="CTLconnectionString" connectionString="Data Source=<local server>;Initial Catalog=CTL;Integrated Security=True" providerName="System.Data.SqlClient"/>
-
 ```
 
 En el "CTLconnectionString" debemos cambiar el "Data Source" con la dirección de nuestro servidor local en SQL Server
@@ -103,9 +115,10 @@ En el "CTLconnectionString" debemos cambiar el "Data Source" con la dirección d
 
 #### Utilidades.cs
 
-Ubicación: CTL -> Utilidades.cs
+Ubicación: CTL -> Utilidades.cs <br>
+Posible numeración de línea de código: 18 <br>
 
-Buscamos la linea 18, se descomenta y se reemplaza por la ubicación de nuestro proyecto local
+Buscamos la siguiente línea, la descomentamos y la reemplazamos por la ubicación de nuestro proyecto local
 
 Ejemplo:
 
@@ -113,7 +126,9 @@ Ejemplo:
 public static string path = "C:\\Users\\HP\\Documents\\GitHub\\Control-de-Trabajos-de-Laboratorio\\CTL";
 ```
 
-Comentamos la línea 21
+Posible numeración de línea de código: 21 <br>
+Buscamos la siguiente línea y la comentamos: 
+
 ```
 //public static string path = "\\\\gaia\\AppFiles\\CTL\\Produccion\\";
 ```
@@ -122,16 +137,18 @@ Comentamos la línea 21
 
 #### Login.aspx.cs
 
-Ubicación: CTL -> Login.aspx -> Login.aspx.cs
+Ubicación: CTL -> Login.aspx -> Login.aspx.cs <br>
+Posible numeración de línea de código: 38 <br>
 
-Comentamos las lineas 38 y 39
+Buscamos las siguiente líneas y la comentamos:
 
 ```
 //actualizarListaRoles();
 //actualizarListaUsuarios();
 ```
 
-Comentamos desde la línea 204 hasta la 208
+Posible numeración de línea de código: 204 <br>
+Buscamos las siguiente líneas y la comentamos:
 
 ```
 //string dominName = string.Empty;
@@ -141,14 +158,16 @@ Comentamos desde la línea 204 hasta la 208
 //string strError = string.Empty;
 ```
 
-Comentamos las líneas 210 y 211
+Posible numeración de línea de código: 210 <br>
+Buscamos las siguientes líneas y las comentamos:
 
 ```
 //foreach (string key in System.Configuration.ConfigurationManager.AppSettings.Keys)
         //{
 ```
 
-Comentamos desde la linea 213 a la 218
+Posible numeración de línea de código: 213 <br>
+Buscamos las siguientes líneas y las comentamos:
 
 ```
 // dominName = key.Contains("DirectoryDomain") ? System.Configuration.ConfigurationManager.AppSettings[key] : dominName;
@@ -159,13 +178,15 @@ Comentamos desde la linea 213 a la 218
                     //{
 ```
 
-Comentamos la línea 220
+Posible numeración de línea de código: 220 <br>
+Buscamos las siguientes líneas y las comentamos:
 
 ```
 //Session["login"] = userName;
 ```
 
-Comentamos desde la línea 222 a la 241
+Posible numeración de línea de código: 222 <br>
+Buscamos las siguientes líneas y las comentamos:
 
 ```
 //object[] datos = conexionServicios.loguearse(userName);
@@ -190,7 +211,8 @@ Comentamos desde la línea 222 a la 241
                             //Session["listaPermisosPagina"] = usuarioRolPaginaPermisoServicios.getPermisosPorUsuario(usuario);
 ```
 
-Agregamos el siguiente código a partir de la línea 242
+Posible numeración de línea de código: 242 <br>
+Agregamos el siguiente código después de las líneas anteriormente comentadas:
 
 ```
             rol = 2;
@@ -210,7 +232,8 @@ Agregamos el siguiente código a partir de la línea 242
             Session["listaPermisosPagina"] = usuarioRolPaginaPermisoServicios.getPermisosPorUsuario(usuario);
 ```
 
-Comentamos desde la línea 293 hasta la 309
+Posible numeración de línea de código: 293 <br>
+Buscamos las siguiente líneas y las comentamos:
 
 ```
                     //}
