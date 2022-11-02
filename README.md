@@ -75,7 +75,7 @@ En el siguente apartado se mostrán las configuraciones necesarias para ejecutar
 
 Ubicación: AccesoDatos -> ConexiónDatos.cs
 
-Borramos la línea 62 y la cambios por la siguiente: 
+Buscamos la línea 62, la borramos y agregamos los siguientes cambios: 
 
 ```
 //return new SqlConnection(System.Web.Configuration.WebConfigurationManager.ConnectionStrings["LOGINConnectionString"].ConnectionString);
@@ -87,7 +87,9 @@ Borramos la línea 62 y la cambios por la siguiente:
 
 Ubicación: CTL -> Web.config
 
-Borramos las lineas desde la 63 hasta la 66 y agregamos las siguientes:
+Buscamos la línea 63, dentro de las etiquetas "\<connectionStrings>\...\</connectionStrings>" borramos la líneas y agregamos las siguentes:
+
+
 
 ```
 <add name="LOGINConnectionString" connectionString="Data Source=163.178.106.21;Initial Catalog=Login;User Id=sa;Password=sa123!!" providerName="System.Data.SqlClient"/>
@@ -103,7 +105,7 @@ En el "CTLconnectionString" debemos cambiar el "Data Source" con la dirección d
 
 Ubicación: CTL -> Utilidades.cs
 
-Descomentamos la linea 18 y la reemplazamos por la ubicación de nuestro proyecto local
+Buscamos la linea 18, se descomenta y se reemplaza por la ubicación de nuestro proyecto local
 
 Ejemplo:
 
