@@ -74,16 +74,30 @@ Para ello abriremos el VisualStudioInstaller que aparece con el siguiente icono:
 
 <div>
 <p style = 'text-align:center;'>
-<img src="https://github.com/Tony02030/ReadMeTest/blob/main/images/visualIcon.png"  width="200px">
+<img src="https://github.com/Tony02030/ReadMeTest/blob/main/images/visualIcon.png"  width="200px" height="200px">
 </p>
 </div>
 <br>
 
-Buscamos el apartado modificar del Visual Studio:
+Buscamos el apartado "Modificar" del Visual Studio:
+<div>
+<p style = 'text-align:center;'>
+<img src="https://github.com/Tony02030/ReadMeTest/blob/main/images/capt1.png"  width="750px">
+</p>
+</div>
+<br>
 
+En "Desarrollo de ASP.NET y web", buscamos la casilla que diga "Plantillas de proyecto y elemento de .Net Framework" y la seleccionamos.
+<div>
+<p style = 'text-align:center;'>
+<img src="https://github.com/Tony02030/ReadMeTest/blob/main/images/capt2.png"  width="950px">
+</p>
+</div>
+<br>
 
+Al seleccionar la casilla, el botón "Cerrar" deberá cambiar a "Modificar". Le damos al botón y la instalación comenzaría. 
 
-
+---
 
 <h3>Configuración de archivos en proyecto</h3>
 
