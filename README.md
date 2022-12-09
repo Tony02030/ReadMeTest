@@ -1,8 +1,14 @@
 
 # Control-de-Trabajos de Laboratorio
 
-Sistema de control de las solicitudes de trabajo de los laboratorios del LanammeUCR incluyendo la trazabilidad de las muestras, ensayos, programaciones, informes y la administración financiera.
+La siguiente documentación esta dirigida a las personas asistentes que son designadas a trabajar en este sistema.  
 
+
+## Descripción del sistema
+Sistema de control de las solicitudes de trabajo de los laboratorios del LanammeUCR incluyendo la trazabilidad de las muestras, ensayos, programaciones, informes y la administración financiera.
+<br>
+
+---
 
 ## Índice
 * [Pre-requisitos](#Pre-requisitos)
