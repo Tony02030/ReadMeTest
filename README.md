@@ -57,7 +57,7 @@ En el siguiente <a href="https://docs.github.com/es/repositories/creating-and-ma
 
 ### Restaurar base de datos
 
-En el siguiente enlace <a href="https://learn.microsoft.com/es-es/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver16">link</a> se enseña paso a paso la restauración de una base de datos en SQL Server utilizando el SSMS.
+En el siguiente enlace <a href="https://learn.microsoft.com/es-es/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver16">link</a> se enseña paso a paso la restauración de una base de datos en SQL Server utilizando el SSMS.Asismísmo, la copia de la base de datos se llama "CTL.bak".
 
 
 <a name="Ejecucion"/>
